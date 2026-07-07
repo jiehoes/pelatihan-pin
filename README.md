@@ -10,9 +10,9 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level
 
 | Halaman | Deskripsi |
 |---|---|
-| `/` (`index.html`) | Beranda — pengantar pelatihan, alur belajar, sasaran peserta |
-| `/modul` (`modul.html`) | Pusat pembelajaran — 6 modul, kuis interaktif, progres tracking |
-| `/map` (`map.html`) | **WebGIS interaktif** — MapLibre GL JS, clip & hitung luas, Ka Zoni AI |
+| `/` (`index.html`) [pelatihan-zonasi.diffa.net](https://pelatihan-zonasi.diffa.net) | Beranda — pengantar pelatihan, alur belajar, sasaran peserta |
+| `/modul` (`modul.html`) [pelatihan-zonasi.diffa.net/modul](https://pelatihan-zonasi.diffa.net/modul) | Pusat pembelajaran — 6 modul, kuis interaktif, progres tracking |
+| `/map` (`map.html`) [pelatihan-zonasi.diffa.net/map](https://pelatihan-zonasi.diffa.net/map) | **WebGIS interaktif** — MapLibre GL JS, clip & hitung luas, Ka Zoni AI |
 
 ## Fitur Peta Interaktif (`/map`)
 

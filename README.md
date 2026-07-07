@@ -4,8 +4,6 @@
 
 Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level Kabupaten. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process), dengan AI assistant **Ka Zoni** untuk analisis spasial.
 
-**Production**: [pelatihan-zonasi.diffa.net](https://pelatihan-zonasi.diffa.net)
-
 ## Halaman
 
 | Halaman | Deskripsi |

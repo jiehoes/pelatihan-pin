@@ -45,6 +45,16 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level
 | **AI** | Cloudflare Workers AI — Llama 3.2 3B (Ka Zoni) |
 | **Deploy** | `wrangler deploy` — static assets + API dalam satu worker |
 
+## Data Simulasi
+
+File ZIP shapefile untuk latihan upload dan clip pada peta interaktif. Peserta bisa mendownload lalu meng-upload ke peta melalui tombol **Upload** di panel digitasi.
+
+| File | Deskripsi | Download |
+|------|-----------|----------|
+| `Batas_Kab.zip` | Batas administrasi Kabupaten | [⬇ Download](https://github.com/jiehoes/pelatihan-pin/raw/main/download/Batas_Kab.zip) |
+| `das_suso_suli.zip` | DAS Suso Suli | [⬇ Download](https://github.com/jiehoes/pelatihan-pin/raw/main/download/das_suso_suli.zip) |
+| `rbi10k_kabluwu_desa.zip` | RBI 10K Kabupaten Luwu — batas desa | [⬇ Download](https://github.com/jiehoes/pelatihan-pin/raw/main/download/rbi10k_kabluwu_desa.zip) |
+
 ## PIN Kuis
 
 | Modul | PIN |
@@ -61,4 +71,3 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level
 | Fungsi | PIN |
 |---|---|
 | Reset Progres Belajar | **1234** |
-

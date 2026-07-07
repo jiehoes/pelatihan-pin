@@ -1,12 +1,3 @@
-Read [](file:///d%3A/2026/Wensite-Wrangler-Training/pelatihan/lucky-river-fc0d/public/README.md)
-
-Read [](file:///d%3A/2026/Wensite-Wrangler-Training/pelatihan/lucky-river-fc0d/public/map.html#50-50), lines 50 to 450
-
-Saya tidak bisa langsung membuat file karena tools write sedang tidak tersedia. Berikut draf lengkapnya — kamu bisa copy-paste ke file baru `public/TUTORIAL.md`:
-
----
-
-```markdown
 # Panduan Pengoperasian Website
 
 ## Pelatihan Perencanaan Zonasi Spasial Kabupaten Luwu
@@ -40,7 +31,7 @@ Saya tidak bisa langsung membuat file karena tools write sedang tidak tersedia. 
 
 Website ini adalah platform **WebGIS interaktif** untuk pelatihan Perencanaan Zonasi Spasial Kabupaten Luwu, Sulawesi Selatan.
 
-**URL**: `https://lucky-river-fc0d.pelatihan-zonasi.workers.dev`
+**URL**: [pelatihan-zonasi.diffa.net](https://pelatihan-zonasi.diffa.net)
 
 | Komponen | Fungsi |
 |----------|--------|
@@ -49,8 +40,6 @@ Website ini adalah platform **WebGIS interaktif** untuk pelatihan Perencanaan Zo
 | 🤖 Ka Zoni AI | Asisten AI untuk analisis spasial |
 | 📐 Clip & Hitung Luas | Analisis area dengan poligon custom |
 | 📂 Upload Layer | Tambah data sendiri (GeoJSON / Shapefile) |
-
-> 📸 `[img/tutorial/beranda.png]`
 
 ---
 
@@ -75,8 +64,6 @@ Halaman `/modul` — 3 tab: **Kurikulum**, **Laporan Nilai**, **Sertifikat**.
 
 **Reset Progres**: PIN `1234`
 
-> 📸 `[img/tutorial/modul.png]`
-
 ---
 
 ## 4. Peta Interaktif — Tampilan Umum
@@ -93,8 +80,6 @@ Halaman `/modul` — 3 tab: **Kurikulum**, **Laporan Nilai**, **Sertifikat**.
 │          │  └─────────────┘  │               │
 └──────────┴───────────────────┴───────────────┘
 ```
-
-> 📸 `[img/tutorial/peta-full.png]`
 
 ---
 
@@ -127,8 +112,6 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 **Cara pakai**: ☑ centang = layer muncul + legenda inline, ☐ hilangkan = sembunyi.
 
-> 📸 `[img/tutorial/panel-layer.png]`
-
 ---
 
 ## 7. Dock Toolbar (Bawah)
@@ -151,8 +134,6 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 **Indikator**: Hijau = aktif, Abu-abu = normal, Transparan = disabled.
 
-> 📸 `[img/tutorial/dock-toolbar.png]`
-
 ---
 
 ## 8. Digitasi & Upload Poligon
@@ -160,10 +141,8 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 1. Klik ✏️ **Digitasi / Upload**
 2. Pilih mode: **Poligon** / **Garis** / **Titik** / **Upload**
 3. Untuk poligon: klik peta → double-click selesai
-4. Untuk upload: pilih file `.geojson` / `.json` (maks 20 MB)
+4. Untuk upload: pilih file `.geojson` / `.json`
 5. Untuk garis/titik: atur **Buffer (m)** → otomatis jadi poligon
-
-> 📸 `[img/tutorial/digitasi-poligon.png]`
 
 ---
 
@@ -175,8 +154,6 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 4. Output: luas per kelas (ha) per layer + **grand total**
 5. Ka Zoni **otomatis membuka** dan menganalisis hasil
 
-> 📸 `[img/tutorial/clip-hitung-luas.png]`
-
 ---
 
 ## 10. Analisis Lokasi (Titik)
@@ -185,18 +162,14 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 2. Klik satu titik di peta
 3. Hasil: tabel semua layer aktif + kelas pada koordinat tersebut
 
-> 📸 `[img/tutorial/analisis-lokasi.png]`
-
 ---
 
 ## 11. Ka Zoni — AI Assistant
 
 - Klik 🤖 di Dock → panel chat kanan
-- Didukung **Llama 3.2 3B**
+- Didukung **Llama 3.2 3B** (Cloudflare Workers AI)
 - Ketik pertanyaan GIS → Enter
 - **Auto-analisis** setelah Clip & Hitung Luas
-
-> 📸 `[img/tutorial/ka-zoni.png]`
 
 ---
 
@@ -204,10 +177,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 1. Panel Layers → scroll bawah → **+ Tambah Layer**
 2. Pilih `.geojson` / `.zip` (shapefile)
-3. Maks **20 MB**
-4. Layer muncul di **📂 User Layers**, auto-visible, warna unik, peta zoom ke data
-
-> 📸 `[img/tutorial/tambah-layer.png]`
+3. Layer muncul di **📂 User Layers**, auto-visible, warna unik, peta zoom ke data
 
 ---
 
@@ -219,7 +189,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ## 14. Pencarian Lokasi
 
-Ketik di 🔍 navbar → Enter → peta zoom + popup informasi.
+Ketik di 🔍 navbar → Enter → peta zoom ke lokasi.
 
 ---
 
@@ -254,12 +224,3 @@ flowchart LR
 | 3 | 🟡 `#fee08b` | Sedang |
 | 4 | 🟢 `#91cf60` | Tinggi |
 | 5 | 🔵 `#1a9850` | Sangat Tinggi |
-
----
-
-> **Catatan**: Folder `img/tutorial/` siap diisi screenshot. Penamaan file: `beranda.png`, `peta-full.png`, `panel-layer.png`, `dock-toolbar.png`, `digitasi-poligon.png`, `clip-hitung-luas.png`, `analisis-lokasi.png`, `ka-zoni.png`, `tambah-layer.png`, `basemap.png`, `pencarian.png`, `cetak.png`, `modul.png`.
-```
-
----
-
-Simpan sebagai `public/TUTORIAL.md`. Placeholder screenshot (`[img/tutorial/...]`) tinggal diganti setelah kamu ambil screenshotnya. Mau saya bantu apa lagi?

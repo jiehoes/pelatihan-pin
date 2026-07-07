@@ -24,7 +24,7 @@ Pelatihan ini didukung **platform web interaktif** yang memuat:
 | Beranda | Ringkasan program dan navigasi |
 | Modul Pelatihan (`modul.html`) | Materi digital + kuis daring (akses tiap modul menggunakan **PIN** yang dibagikan fasilitator) |
 | Peta Interaktif (`map.html`) | WebGIS 29 layer indikator: toggle layer, digitasi poligon/garis/titik, buffer, clip & hitung luas, analisis lokasi, unduh GeoJSON, serta asisten AI **Ka Zoni** |
-| Hasil Agregat (`mce-hasil.html`) | Detail bobot AHP 15 pakar dan perbandingan antar tipologi |
+| Hasil Agregat (`mce-hasil.html`) | Detail bobot AHP para pakar dan perbandingan antar tipologi |
 
 ---
 
@@ -142,7 +142,7 @@ Contoh untuk **kemiringan lereng**:
 
 ## 2.3 Pembobotan AHP dan agregasi
 
-Tidak semua kriteria sama pentingnya. **Bobot** ditetapkan melalui **AHP (Analytical Hierarchy Process)** — metode perbandingan berpasangan yang melibatkan **15 pakar** dari 4 tipologi: Akademisi, Pemerintah, Praktisi, dan Tokoh Masyarakat.
+Tidak semua kriteria sama pentingnya. **Bobot** ditetapkan melalui **AHP (Analytical Hierarchy Process)** — metode perbandingan berpasangan yang melibatkan para pakar dari 4 tipologi: Akademisi, Pemerintah, Praktisi, dan Tokoh Masyarakat.
 
 Hasil agregasi menggunakan **geometric mean (AIJ)** dengan Consistency Ratio **CR = 0,019** (sangat konsisten, di bawah ambang 0,10). Urutan bobot konstruk dari yang terpenting:
 
@@ -198,7 +198,7 @@ Hasil akhir zonasi disusun dari **5 kriteria AHP** yang membawahi **16 indikator
 - C. Faktor pembatas terberat
 - D. Luas lahan
 
-**3. Berapa Consistency Ratio (CR) hasil AHP 15 pakar?**
+**3. Berapa Consistency Ratio (CR) hasil AHP para pakar?**
 - A. 0,105 — tidak konsisten
 - B. 0,019 — sangat konsisten
 - C. 0,500 — cukup konsisten
@@ -214,11 +214,11 @@ Hasil akhir zonasi disusun dari **5 kriteria AHP** yang membawahi **16 indikator
 
 # MODUL 3 — Lima Kriteria & 16 Indikator AHP
 
-> **Durasi:** 15 menit · **Ringkasan:** Mengenal 5 kriteria K1–K5 dan 16 indikator beserta bobot hasil agregasi 15 pakar.
+> **Durasi:** 15 menit · **Ringkasan:** Mengenal 5 kriteria K1–K5 dan 16 indikator beserta bobot hasil agregasi para pakar.
 
 ## 3.1 Struktur penilaian AHP
 
-Seluruh penilaian zonasi Luwu dibangun dari **16 indikator** yang dikelompokkan menjadi **5 kriteria AHP** (K1–K5). Tiap kriteria mewakili satu dimensi penilaian dengan bobot hasil agregasi geometric mean dari 15 pakar (4 tipologi).
+Seluruh penilaian zonasi Luwu dibangun dari **16 indikator** yang dikelompokkan menjadi **5 kriteria AHP** (K1–K5). Tiap kriteria mewakili satu dimensi penilaian dengan bobot hasil agregasi geometric mean dari para pakar (4 tipologi).
 
 | Kriteria | Bobot Konstruk | Indikator | Bobot Global |
 |---|---|---|---|
@@ -253,7 +253,7 @@ Di tingkat kriteria, **K1 Kesesuaian Lahan (0,271)** paling dominan, diikuti K2 
 
 ## 3.3 Perbandingan persepsi antar tipologi
 
-Salah satu kekuatan AHP adalah kemampuannya mengungkap **perbedaan persepsi** antar kelompok pemangku kepentingan. 15 pakar terbagi dalam 4 tipologi:
+Salah satu kekuatan AHP adalah kemampuannya mengungkap **perbedaan persepsi** antar kelompok pemangku kepentingan. Para pakar terbagi dalam 4 tipologi:
 
 | Tipologi | Jumlah | K1 | K2 | K3 | K4 | K5 |
 |---|---|---|---|---|---|---|

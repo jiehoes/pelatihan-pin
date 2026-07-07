@@ -12,7 +12,7 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level
 | `/modul` (`modul.html`) [pelatihan-zonasi.diffa.net/modul](https://pelatihan-zonasi.diffa.net/modul) | Pusat pembelajaran — 6 modul, kuis interaktif, progres tracking |
 | `/map` (`map.html`) [pelatihan-zonasi.diffa.net/map](https://pelatihan-zonasi.diffa.net/map) | **WebGIS interaktif** — MapLibre GL JS, clip & hitung luas, Ka Zoni AI |
 
-> **Sumber Layer Peta Interaktif:** Menggunakan Indikator MCE-SEM/PLS (Metode evaluasi penapisan jumlah indikator) karena peta berbasis vector yang relatif bermanfaat untuk kegiatan simulasi dibandingkan Indikator MCE-AHP-GIS yang berbasiskan index (raster/vector).
+> **Sumber Layer Peta Interaktif:** Menggunakan Indikator MCE-SEM/PLS-GIS (Metode evaluasi penapisan jumlah indikator) karena peta berbasis vector yang relatif bermanfaat untuk kegiatan simulasi dibandingkan dengan indikator MCE-AHP-GIS yang berbasiskan index (raster/vector).
 
 ## Fitur Peta Interaktif (`/map`)
 

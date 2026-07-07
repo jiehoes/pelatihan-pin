@@ -1,8 +1,8 @@
-# Pelatihan Perencanaan Zonasi Spasial Kabupaten Luwu
+# Pelatihan Perencanaan Zonasi Spasial
 
 > Program **FOLUR UNDP** — WebGIS Interaktif + Modul Pembelajaran
 
-Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk Kabupaten Luwu, Sulawesi Selatan. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process) dari 15 pakar, dengan AI assistant **Ka Zoni** untuk analisis spasial.
+Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level Kabupaten, Sulawesi Selatan. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process) dari 15 pakar, dengan AI assistant **Ka Zoni** untuk analisis spasial.
 
 **Production**: [pelatihan-zonasi.diffa.net](https://pelatihan-zonasi.diffa.net)
 

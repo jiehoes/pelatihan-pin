@@ -1,1 +1,74 @@
-# pelatihan-pin
+# Pelatihan Perencanaan Zonasi Spasial Kabupaten Luwu
+
+> Program **FOLUR UNDP** — WebGIS Interaktif + Modul Pembelajaran
+
+Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk Kabupaten Luwu, Sulawesi Selatan. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process) dari 15 pakar, dengan AI assistant **Ka Zoni** untuk analisis spasial.
+
+**Production**: [lucky-river-fc0d.pelatihan-zonasi.workers.dev](https://pelatihan-zonasi.workers.dev)
+
+## Halaman
+
+| Halaman | Deskripsi |
+|---|---|
+| `/` (`index.html`) | Beranda — pengantar pelatihan, alur belajar, sasaran peserta |
+| `/modul` (`modul.html`) | Pusat pembelajaran — 6 modul, kuis interaktif, progres tracking |
+| `/map` (`map.html`) | **WebGIS interaktif** — MapLibre GL JS, clip & hitung luas, Ka Zoni AI |
+| `/map-dev` (`map-dev.html`) | Versi development map (ringan, flat layer panel) |
+
+## Fitur Peta Interaktif (`/map`)
+
+- **30+ layer GeoJSON tematik** — 6 kelompok indikator (X1–X6) dengan bobot AHP
+- **Clip & Hitung Luas** — gambar poligon / upload GeoJSON, hitung luas per kelas
+- **Analisis Lokasi** — klik titik, dapatkan kelas dari semua layer aktif
+- **Digitasi & Upload** — poligon, garis (ukur panjang), titik + buffer
+- **Ka Zoni AI Assistant** — chat dengan Llama 3.2 3B, analisis otomatis hasil clip
+- **4 Basemap** — OSM Streets, Satellite (ESRI), Carto Light, Dark Mode
+- **Download GeoJSON** — ekspor layer aktif
+
+## Modul Pelatihan
+
+1. **Konsep Dasar Perencanaan Zonasi Spasial** — Fondasi: definisi, urgensi, dasar hukum
+2. **Metodologi Analisis Spasial (MCE-GIS)** — Standardisasi, pembobotan, agregasi
+3. **Enam Kelompok Indikator Spasial (X1–X6)** — 30 indikator, bobot, kerangka IPCC AR5
+4. **Membaca & Menggunakan Peta Zonasi** — Simbologi, legenda, klasifikasi 5 kelas
+5. **Penerapan Zonasi dalam Peraturan & Perizinan** — KKPR, revisi RTRW
+6. **Pemantauan & Evaluasi Zonasi** — M&E, InaRISK/BPBD, siklus pemutakhiran
+
+## Tech Stack
+
+| Layer | Teknologi |
+|-------|-----------|
+| **Frontend** | HTML5, Tailwind CSS (CDN), MapLibre GL JS 3.6, Turf.js 6, Vanilla JS |
+| **Backend** | Cloudflare Worker (`src/index.js`) |
+| **Database** | Cloudflare D1 (`ahp-zonasi-db`) — 3 tabel (pakar, bobot, pairwise) |
+| **Storage** | Cloudflare R2 (`zonasi-geojson`) — file GeoJSON |
+| **AI** | Cloudflare Workers AI — Llama 3.2 3B (Ka Zoni) |
+| **Deploy** | `wrangler deploy` — static assets + API dalam satu worker |
+
+## PIN Kuis
+
+| Modul | PIN |
+|---|---|
+| Modul 1 — Konsep Dasar Perencanaan Zonasi Spasial | **4827** |
+| Modul 2 — Metodologi Analisis Spasial (MCE-GIS) | **7391** |
+| Modul 3 — Enam Kelompok Indikator Spasial | **1563** |
+| Modul 4 — Membaca & Menggunakan Peta Zonasi | **9045** |
+| Modul 5 — Penerapan Zonasi dalam Peraturan & Perizinan | **6182** |
+| Modul 6 — Pemantauan & Evaluasi Zonasi | **2750** |
+
+### Reset Progres
+
+| Fungsi | PIN |
+|---|---|
+| Reset Progres Belajar | **1234** |
+
+## Development
+
+```bash
+npm install
+npx serve geojson -p 8080 --cors    # GeoJSON server lokal
+npx wrangler dev                     # Worker development
+npx wrangler deploy                  # Deploy ke Cloudflare
+```
+
+Lihat **[AGENTS.md](../AGENTS.md)** untuk dokumentasi teknis lengkap (API endpoints, pola kode, arsitektur).

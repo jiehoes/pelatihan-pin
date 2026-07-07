@@ -2,7 +2,7 @@
 
 > Program **FOLUR UNDP** — WebGIS Interaktif + Modul Pembelajaran
 
-Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level Kabupaten. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process), dengan AI assistant **Ka Zoni** untuk analisis spasial.
+Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level Kabupaten. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process) hasil penapisan metode SEM/PLS (47 indikator), dengan AI assistant **Ka Zoni** untuk analisis spasial.
 
 ## Halaman
 

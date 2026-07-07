@@ -4,7 +4,7 @@
 
 Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk Kabupaten Luwu, Sulawesi Selatan. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process) dari 15 pakar, dengan AI assistant **Ka Zoni** untuk analisis spasial.
 
-**Production**: [lucky-river-fc0d.pelatihan-zonasi.workers.dev](https://pelatihan-zonasi.workers.dev)
+**Production**: [pelatihan-zonasi.diffa.net](https://pelatihan-zonasi.diffa.net)
 
 ## Halaman
 
@@ -13,7 +13,6 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk Kabup
 | `/` (`index.html`) | Beranda — pengantar pelatihan, alur belajar, sasaran peserta |
 | `/modul` (`modul.html`) | Pusat pembelajaran — 6 modul, kuis interaktif, progres tracking |
 | `/map` (`map.html`) | **WebGIS interaktif** — MapLibre GL JS, clip & hitung luas, Ka Zoni AI |
-| `/map-dev` (`map-dev.html`) | Versi development map (ringan, flat layer panel) |
 
 ## Fitur Peta Interaktif (`/map`)
 
@@ -23,7 +22,8 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk Kabup
 - **Digitasi & Upload** — poligon, garis (ukur panjang), titik + buffer
 - **Ka Zoni AI Assistant** — chat dengan Llama 3.2 3B, analisis otomatis hasil clip
 - **4 Basemap** — OSM Streets, Satellite (ESRI), Carto Light, Dark Mode
-- **Download GeoJSON** — ekspor layer aktif
+- **Download GeoJSON** — ekspor layer aktif (disabled)
+- **Upload Zip Shapefile** — panel layers paling bawah
 
 ## Modul Pelatihan
 
@@ -62,13 +62,3 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk Kabup
 |---|---|
 | Reset Progres Belajar | **1234** |
 
-## Development
-
-```bash
-npm install
-npx serve geojson -p 8080 --cors    # GeoJSON server lokal
-npx wrangler dev                     # Worker development
-npx wrangler deploy                  # Deploy ke Cloudflare
-```
-
-Lihat **[AGENTS.md](../AGENTS.md)** untuk dokumentasi teknis lengkap (API endpoints, pola kode, arsitektur).

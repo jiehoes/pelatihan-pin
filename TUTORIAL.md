@@ -4,6 +4,7 @@
 Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level Kabupaten. Menampilkan 30+ layer indikator spasial hasil agregasi AHP (Analytical Hierarchy Process), dengan AI assistant **Ka Zoni** untuk analisis spasial.
 
 **Production**: [pelatihan-zonasi.diffa.net](https://pelatihan-zonasi.diffa.net)
+
 ## Pelatihan Perencanaan Zonasi Spasial Kabupaten Luwu
 > **Program FOLUR UNDP** — Versi 2026
 
@@ -13,21 +14,20 @@ Website pelatihan penguatan kapasitas **Perencanaan Zonasi Spasial** untuk level
 
 1. [Pengenalan](#1-pengenalan)
 2. [Halaman Utama (Beranda)](#2-halaman-utama-beranda)
-3. [Halaman Modul & Kuis](#3-halaman-modul--kuis)
-4. [Peta Interaktif — Tampilan Umum](#4-peta-interaktif--tampilan-umum)
-5. [Navigasi & Bilah Atas](#5-navigasi--bilah-atas)
-6. [Panel Layer (Kiri)](#6-panel-layer-kiri)
-7. [Dock Toolbar (Bawah)](#7-dock-toolbar-bawah)
-8. [Digitasi & Upload Poligon](#8-digitasi--upload-poligon)
-9. [Clip & Hitung Luas](#9-clip--hitung-luas)
-10. [Analisis Lokasi (Titik)](#10-analisis-lokasi-titik)
-11. [Ka Zoni — AI Assistant](#11-ka-zoni--ai-assistant)
-12. [Tambah Layer (Upload Data)](#12-tambah-layer-upload-data)
-13. [Basemap Switcher](#13-basemap-switcher)
-14. [Pencarian Lokasi](#14-pencarian-lokasi)
-15. [Cetak Peta](#15-cetak-peta)
-16. [Sertifikat & Progres Belajar](#16-sertifikat--progres-belajar)
-17. [Referensi Cepat](#referensi-cepat)
+3. [Peta Interaktif — Tampilan Umum](#3-peta-interaktif--tampilan-umum)
+4. [Navigasi & Bilah Atas](#4-navigasi--bilah-atas)
+5. [Panel Layer (Kiri)](#5-panel-layer-kiri)
+6. [Dock Toolbar (Bawah)](#6-dock-toolbar-bawah)
+7. [Digitasi & Upload Poligon](#7-digitasi--upload-poligon)
+8. [Clip & Hitung Luas](#8-clip--hitung-luas)
+9. [Analisis Lokasi (Titik)](#9-analisis-lokasi-titik)
+10. [Ka Zoni — AI Assistant](#10-ka-zoni--ai-assistant)
+11. [Tambah Layer (Upload Data)](#11-tambah-layer-upload-data)
+12. [Basemap Switcher](#12-basemap-switcher)
+13. [Pencarian Lokasi](#13-pencarian-lokasi)
+14. [Cetak Peta](#14-cetak-peta)
+15. [Sertifikat & Progres Belajar](#15-sertifikat--progres-belajar)
+16. [Referensi Cepat](#referensi-cepat)
 
 ---
 
@@ -53,24 +53,7 @@ Halaman `/` berisi: judul, logo FOLUR UNDP, ringkasan program, tombol navigasi k
 
 ---
 
-## 3. Halaman Modul & Kuis
-
-Halaman `/modul` — 3 tab: **Kurikulum**, **Laporan Nilai**, **Sertifikat**.
-
-| Modul | PIN Kuis |
-|-------|----------|
-| 1 — Konsep Dasar | `4827` |
-| 2 — Metodologi MCE-GIS | `7391` |
-| 3 — Enam Indikator X1–X6 | `1563` |
-| 4 — Membaca Peta Zonasi | `9045` |
-| 5 — Penerapan & Perizinan | `6182` |
-| 6 — Pemantauan & Evaluasi | `2750` |
-
-**Reset Progres**: PIN `1234`
-
----
-
-## 4. Peta Interaktif — Tampilan Umum
+## 3. Peta Interaktif — Tampilan Umum
 
 ```
  ┌──────────────────────────────────────────────────────────────────┐
@@ -103,7 +86,7 @@ Halaman `/modul` — 3 tab: **Kurikulum**, **Laporan Nilai**, **Sertifikat**.
 
 ---
 
-## 5. Navigasi & Bilah Atas
+## 4. Navigasi & Bilah Atas
 
 | Item | Fungsi |
 |------|--------|
@@ -115,7 +98,7 @@ Halaman `/modul` — 3 tab: **Kurikulum**, **Laporan Nilai**, **Sertifikat**.
 
 ---
 
-## 6. Panel Layer (Kiri)
+## 5. Panel Layer (Kiri)
 
 Klik **📂 Layers** di Dock untuk buka/tutup.
 
@@ -134,7 +117,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ---
 
-## 7. Dock Toolbar (Bawah)
+## 6. Dock Toolbar (Bawah)
 
 11 tombol di dock 3D:
 
@@ -156,7 +139,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ---
 
-## 8. Digitasi & Upload Poligon
+## 7. Digitasi & Upload Poligon
 
 1. Klik ✏️ **Digitasi / Upload**
 2. Pilih mode: **Poligon** / **Garis** / **Titik** / **Upload**
@@ -166,7 +149,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ---
 
-## 9. Clip & Hitung Luas
+## 8. Clip & Hitung Luas
 
 1. **Buat poligon** (digitasi/upload) → ✂️ aktif
 2. **Centang layer** di panel kiri
@@ -176,7 +159,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ---
 
-## 10. Analisis Lokasi (Titik)
+## 9. Analisis Lokasi (Titik)
 
 1. ✏️ → **Titik**
 2. Klik satu titik di peta
@@ -184,7 +167,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ---
 
-## 11. Ka Zoni — AI Assistant
+## 10. Ka Zoni — AI Assistant
 
 - Klik 🤖 di Dock → panel chat kanan
 - Didukung **Llama 3.2 3B** (Cloudflare Workers AI)
@@ -193,7 +176,7 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ---
 
-## 12. Tambah Layer (Upload Data)
+## 11. Tambah Layer (Upload Data)
 
 1. Panel Layers → scroll bawah → **+ Tambah Layer**
 2. Pilih `.geojson` / `.zip` (shapefile)
@@ -201,25 +184,25 @@ Klik **📂 Layers** di Dock untuk buka/tutup.
 
 ---
 
-## 13. Basemap Switcher
+## 12. Basemap Switcher
 
 🗺️ → pilih: **OSM Streets** / **Satellite** (ESRI) / **Carto Light** / **Dark Mode**
 
 ---
 
-## 14. Pencarian Lokasi
+## 13. Pencarian Lokasi
 
 Ketik di 🔍 navbar → Enter → peta zoom ke lokasi.
 
 ---
 
-## 15. Cetak Peta
+## 14. Cetak Peta
 
 🖨️ → dialog print browser → hanya peta + judul yang tercetak (UI otomatis disembunyikan).
 
 ---
 
-## 16. Sertifikat & Progres
+## 15. Sertifikat & Progres
 
 ```mermaid
 flowchart LR
@@ -233,7 +216,7 @@ flowchart LR
 
 ---
 
-## Referensi Cepat
+## 16. Referensi Cepat
 
 ### Warna Kelas
 
